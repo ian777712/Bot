@@ -17,9 +17,9 @@ import { router as userRoutes } from './routes/user-routes';
 
 export const app = express();
 export const auth = new AuthClient({
-    id: process.env.BOT_ID,
-    secret: process.env.CLIENT_SECRET,
-    redirectURI: `${ process.env.API_URL}/auth`,
+    id: "795670538260709408",
+    secret: "hVe2oED0ktr5eP8mbWzN_87l6I2q7tZi",
+    redirectURI: `https://mr32.herokuapp.com/auth`,
     scopes: ['identify', 'guilds']
 });
 export const stripe = new Stripe( process.env.STRIPE_SECRET_KEY, { apiVersion: '2020-08-27' });
