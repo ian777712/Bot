@@ -13,23 +13,23 @@
   "env": {
     "API_URL": {
       "description": "The API URL [https://<heroku_app_name>.herokuapp.com/api]",    
-      "value": "https://<heroku_app_name>.herokuapp.com/api"
+      "value": "https://dashboardmr3.herokuapp.com/api"
     },    
     "BOT_ID": {
       "description": "Bot ID from https://discord.com/developers.",    
-      "value": ""
+      "value": "795670538260709408"
     },
     "BOT_TOKEN": {
       "description": "Bot Token from https://discord.com/developers.",    
-      "value": ""
+      "value": "Nzk1NjcwNTM4MjYwNzA5NDA4.X_Mv7w.kemxdMsNTh5BXPKBSRhE0LT9x6I"
     },
     "CLIENT_SECRET": {
       "description": "Client Secret from https://discord.com/developers.",    
-      "value": ""
+      "value": "hVe2oED0ktr5eP8mbWzN_87l6I2q7tZi"
     },
     "DASHBOARD_URL": {
       "description": "The Website URL [https://<heroku_app_name>.herokuapp.com]",    
-      "value": "https://<heroku_app_name>.herokuapp.com"
+      "value": "https://dashboardmr3.herokuapp.com"
     },
     "GUILD_ID": {
       "description": "Guild ID with the premium role in (optional).",    
@@ -42,7 +42,7 @@
     },
     "OWNER_ID": {
       "description": "Discord bot owner ID.",    
-      "value": "",
+      "value": "769652460011782144",
       "required": false
     },
     "PORT": {
